@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Contact / Gamester Reviews</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-    <h1 class="middletext">Gamester Reviews</h1>
-<nav> 
-  <a href="index.html">Home</a>
-  <a href="featured.html">Featured</a>
-  <a href="top-picks.html">Top Picks</a>
-  <a href="gamereviews.html">Game Review</a>
-  <a href="aboutreviewer.html">About Reviewer</a>
-    <a href="contact.html">Contact</a>
-</nav>
-</header>
-<main>
-<h2>Contact Us</h2>
-<p> If you have any questions about what game you should try shoot us a message!</p>
-<form>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Contact / Gamester Reviews</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1 class="middletext">Gamester Reviews</h1>
+            <nav> 
+                <a href="index.html">Home</a>
+                <a href="featured.html">Featured</a>
+                <a href="top-picks.html">Top Picks</a>
+                <a href="gamereviews.html">Game Review</a>
+                <a href="aboutreviewer.html">About Reviewer</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <main>
+            <section id="contact">   
+                <h2>Contact Us</h2>
+                <p> If you have any questions about what game you should try shoot us a message!</p>
+                
+                    <form>
+                        <label for="name">Name:<br></label>
+                        <input type="text" id="name" name="name" required>
+                        <br> 
+                        <label for="email">Email:<br></label>
+                        <input type="email" id="email" name="email" required>
+                        <br> 
+                        <label for="message">Message:<br></label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <br> 
+                        <label>Rate our website:<br></label>
+                        <div class="star-rating">
+                        <button type="submit">Send Message</button>
+                        <button type="reset">Reset</button>
+                    </form>
+                
+            </section>
+        </main>
+        <footer>Gamester Reviews / 2026</footer>
 
-     <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-    
-     <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-    <label>rate our website:</label>
-    <div class="star-rating">
-<button type="submit">Send Message</button>
-<button type="reset">Reset</button>
-</form>
-</main>
-<footer>Gamester Reviews / 2026</footer>
-</body>
+    </body>
 </html>

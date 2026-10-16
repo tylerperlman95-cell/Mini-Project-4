@@ -1,19 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Gamester Reviews banner*/
 body { 
+      color: yellow;
     margin: 0;
     padding: 0;
+ background-image: url('Background3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+
 }
+
 .banner {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 
-.banner img {
-   width: 50%;
-   height: 350px;
-   display: block;
 
+.banner img {
+    width: 50%;
+    height: 350px;
+    display: block;
 }
 
 .game-list img,
@@ -131,4 +142,15 @@ nav a:hover {
 
 .toppicks-des {
     font-size: 25px;
+}
+
+nav a {
+    color: white;
+font-size: 20px;
+}
+
+ #contact {
+    align-items: center;
+    justify-self: center;
+    text-align: center;
 }
