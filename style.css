@@ -1,0 +1,106 @@
+/* Gamester Reviews banner*/
+body { 
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner img {
+   width: 100%;
+   height: 350px;
+   display: block;
+}
+
+.game-list img,
+.game-card img,
+.game-list .game img {
+
+    width: 220px;
+    height: 160px;
+    display: block;
+    margin-left: 20px;
+}
+footer {
+    margin-top: 30px;
+    padding:20px;
+    text-align: center;
+}
+
+.game-reviews .review-card img {
+    margin: 20px;
+}
+
+.game-reviews .review-card {
+    display: flex;
+align-items: flex-start;
+gap: 20px;
+margin: 30 px 20px;}
+
+nav {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.game-reviews .review-card img {
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    margin: 10px;
+    flex-shrink: 0;
+    
+}
+@media (max-width: 600px) {
+.game-reviews .review-card {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
+body img[src="Tyler.jpg"] {
+    width: 400px;
+    height: auto;
+    max-width: 100%
+    object-fit: contain;
+    display: block;
+    margin: 10px 20px
+}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.review-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+background-color: lightblue;
+cursor: pointer;
+}
+
+nav a:hover {
+    color: blue;
+    background-color: lightblue;
+    text-decoration: underline;
+}
