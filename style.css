@@ -154,3 +154,40 @@ font-size: 20px;
     justify-self: center;
     text-align: center;
 }
+
+h2, h3, h4 {
+    color: white;
+}
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.star-rating input:checked + label {
+    color: gold
+
+}
+.star-rating label {
+    color: gray;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.star-rating input {
+ display: none;
+}
+
+.star-rating input:checked + label {
+color: gold;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label,
+.star-rating input:checked ~ label {
+    color: gold;
+}
