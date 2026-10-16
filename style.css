@@ -10,9 +10,10 @@ body {
 }
 
 .banner img {
-   width: 100%;
+   width: 50%;
    height: 350px;
    display: block;
+
 }
 
 .game-list img,
@@ -68,10 +69,10 @@ nav a {
 body img[src="Tyler.jpg"] {
     width: 400px;
     height: auto;
-    max-width: 100%
+    max-width: 100%;
     object-fit: contain;
     display: block;
-    margin: 10px 20px
+    margin: 10px 20px;
 }
 main {
     max-width: 1000px;
@@ -103,4 +104,31 @@ nav a:hover {
     color: blue;
     background-color: lightblue;
     text-decoration: underline;
+}
+
+.middletext {
+    display: flex;
+    justify-content: center;
+}
+
+.middletextd {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.rating {
+    font-size: 20px;
+}
+
+.genre {
+        font-size: 20px;
+}
+
+.toppicks-title {
+    font-size: 30px;
+}
+
+.toppicks-des {
+    font-size: 25px;
 }
